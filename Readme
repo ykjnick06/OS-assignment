@@ -1,0 +1,27 @@
+1. Reading Input
+The program asks for a .txt file, opens it, and loads all processes into a vector.
+
+2. User Menu
+User can choose:
+- Priority Scheduling
+- Round Robin
+- SRTF
+- Exit
+- Surprise (infinite loop easter egg)
+
+3. Processing
+Each scheduling function:
+- Sorts process list (usually by arrival time)
+- Simulates CPU clock time
+- Selects appropriate job based on algorithm
+Updates:
+- Remaining time
+- Waiting time
+- Turnaround time
+- Response time
+
+4. Output
+- Execution timeline
+- Table of results
+- Average times
+- Gantt Chart
